@@ -2,7 +2,7 @@
 import { getContainer } from './run';
 import isUrl from 'is-url';
 
-const version = process.env.REACT_APP_VERSION;
+const version = process.env.REACT_APP_VERSION || '2.2';
 const API = process.env.REACT_APP_API || '';
 
 // Missing support
